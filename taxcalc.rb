@@ -11,4 +11,4 @@ puts "OK now enter price of you dinner, or breakfast, or...."
 price = (gets.chomp).to_i
 system ("clear")
 price_with_tax =( (price * tax_size) / 100) + price
-puts "You must pay #{price_with_tax} dollars, or another vault"
+puts "You must pay #{price_with_tax} dollars, or another Currency"
